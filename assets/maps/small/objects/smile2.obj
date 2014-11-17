@@ -1,0 +1,8 @@
+{
+	"visibility": true,
+	
+	"gfx": {
+		"filename": "test2.png",
+		"region": [0, 0, 32, 32]
+	}
+}

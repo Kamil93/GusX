@@ -1,0 +1,21 @@
+{
+	"visibility": true,
+	
+	"body": {
+		"type": "static",
+	
+		"friction": 0.5,
+		"damping": 0.5,
+		
+		"shapes": {
+			"main": ["box", 0, 0, 5, 5]
+		}
+	},
+	
+	"gfx": {
+		"filename": "flare_greenlight2.png",
+		"position": [0, 0],
+		"pivot": [66, 66],
+		blend: "add"
+	}
+}

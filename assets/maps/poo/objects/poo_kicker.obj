@@ -1,0 +1,13 @@
+{
+	"visibility": false,
+	"bounce_factory": 0,
+	"col_layer": -1,
+	
+	"events": {
+		"detect_range;65": [
+			"damp;0",
+			"repel;2.2;100;2.2",
+			"play_sound;kicker.wav"
+		]
+	}
+}

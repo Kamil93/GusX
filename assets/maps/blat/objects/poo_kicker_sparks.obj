@@ -1,0 +1,11 @@
+{
+	"color": [100, 100, 255, 170],
+	"col_layer": -1,
+	
+	"repeat": 2,
+	
+	"events": {
+		"ground_collision": "remove",
+		"timer;0;25": "remove"
+	}
+}

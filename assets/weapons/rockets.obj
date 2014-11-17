@@ -1,0 +1,14 @@
+name: "Rocket Luncher",
+
+skin: "weapons/rocket.png",
+
+ammo: 100,
+reload_time: 1000,
+
+actions: {
+	primary: [
+		["shoot", "bomb.obj", 1000],
+		["use_ammo", 10],
+		["lock_action", 1000]
+	]
+}

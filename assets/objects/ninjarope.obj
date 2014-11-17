@@ -1,0 +1,22 @@
+{
+	"visibility": true,
+	
+	"body": {
+		"type": "dynamic",
+	
+		"friction": 0.5,
+		"damping": 0.5,
+		
+		"shapes": {
+			"hook": ["particle_sensor", 0, 0]
+		}
+	},
+	
+	"gfx": {
+		"filename": "hook.png",
+		"position": [-3, -3],
+		"pivot": [0, 0]
+	},
+	
+	"onDestroy": "ninjarope.destroy()"
+}

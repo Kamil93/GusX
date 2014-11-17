@@ -1,0 +1,29 @@
+{
+	visibility: true,
+	
+	body: {
+		type: "kinestetic",
+	
+		friction: 0.5,
+		damping: 0.5,
+		
+		shapes: {
+			main: ["box", 0, 0, 5, 5]
+		}
+	},
+	
+	gfx: {
+		filename: "skin.png",
+		position: [-10, -8],
+		pivot: [0, 0]
+	},
+	
+	lights: {
+		light1: {
+			filename: "medium_light2.png",
+			position: [0, 0],
+			anchor: [0.5, 0.5],
+			tint: 0xFF0000
+		}
+	}
+}

@@ -1,0 +1,27 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	
+	background-color: rgba(64,0,0,255);
+}
+
+canvas#playground {
+	display: block;
+
+	margin: 65px 25px;
+
+	background-color: gray;
+}
+
+div#log {
+	padding: 10px;
+}
+
+div#log > p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: rgb(100,100,100);
+}

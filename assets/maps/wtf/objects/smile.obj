@@ -1,0 +1,12 @@
+{
+	"visibility": true,
+	
+	"shapes": {
+		"main": ["box", 0, 0, 32, 32, false]
+	},
+	
+	"gfx": {
+		"filename": "test.png",
+		"region": [0, 0, 32, 32]
+	}
+}

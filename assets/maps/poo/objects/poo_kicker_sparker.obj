@@ -1,0 +1,9 @@
+{
+	"visibility": true,
+	"col_layer": -1,
+	
+	"events": {
+		"ground_collision": "remove",
+		"timer;1": "shoot_object;poo_kicker_sparks;20;0.3;0.6;distribution=10"
+	}
+}
